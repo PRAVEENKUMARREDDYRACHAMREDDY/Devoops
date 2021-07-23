@@ -22,3 +22,5 @@ systemctl start jenkins
 systemctl enable jenkins 
 #check status
 systemctl status jenkins
+#switch to jenkins user
+su - jenkins -s /bin/bash
